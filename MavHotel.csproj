@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\img\NewFolder\**" />
+    <Content Remove="wwwroot\img\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\img\NewFolder\**" />
+    <None Remove="wwwroot\img\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\bottle.svg" />
+    <Content Remove="wwwroot\img\camera.svg" />
+    <Content Remove="wwwroot\img\img1.svg" />
+    <Content Remove="wwwroot\img\location.svg" />
+    <Content Remove="wwwroot\img\Rectangle 3 %281%29.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\NewFolder1\" />
+  </ItemGroup>
+
+</Project>

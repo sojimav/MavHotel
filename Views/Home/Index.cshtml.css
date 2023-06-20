@@ -1,0 +1,67 @@
+﻿row-6{
+    margin-bottom: 40vh;
+    height: auto
+}
+
+.first h2 {
+    color: #152C5B;
+}
+.first p {
+    color: #B0B0B0;
+}
+
+.icon-text{
+    font-size: 0.9rem;
+}
+
+.img-second-container img{
+    width: 300px;
+    
+}
+
+.img-first .blueOrigin {
+    margin-top: -90px;
+}
+
+.img-first .jarkata{
+    margin-top: -60px;
+}
+
+.Ocean, .Stark {
+    margin-top: 110px;
+}
+
+.Bandung, .Malang {
+    margin-top: 130px;
+}
+
+.Stark, .Malang, .Bobox, .Medan {
+    margin-left: 320px;
+}
+
+.Vinna, .Bobox {
+    margin-top: 330px;
+}
+
+.Mal, .Medan {
+    margin-top: 350px;
+}
+     
+
+.img-first img{
+    height: 380px;
+   
+}
+
+.img-container-2 img{
+    width: 220px;
+}
+
+.img-container-2 #sp {
+    color: #152C5B;
+}
+
+.img-container-2 #sl {
+    color: #B0B0B0;
+    font-size: 0.2rem;
+}
