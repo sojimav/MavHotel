@@ -1,8 +1,8 @@
-﻿@{
+﻿﻿@{
     ViewData["Title"] = "Home Page";
 }
-<div class="row first justify-content-evenly h-100  mt-md-4 mb-md-5 ps-md-3 ">
-     <div class="col-md-4">
+<div class="container row first justify-content-evenly h-100  mt-md-4 mb-md-5 ps-md-3 ">
+    <div class="col-md-4">
         <h2 class="w-100 mb-4 fw-bold">
             Forget Busy Work, Start Next Vacation
         </h2>
@@ -11,12 +11,12 @@
             holiday with family. Time to make another
             memorable moments.
         </p>
-        
+
         <button type="button" class="btn btn-primary text-light mt-2 mb-2">Show Me Now</button>
 
         <div class="row mt-4 icon-text mt-5">
             <div class="col-md-4">
-                <img class="mb-2" src="~/img/icon/icon_traveler.svg"/>
+                <img class="mb-2" src="~/img/icon/icon_traveler.svg" />
                 <p><span class="text-black">80,409</span> travelers</p>
             </div>
 
@@ -30,32 +30,32 @@
                 <p><span class="text-black">1,492</span> cities </p>
             </div>
         </div>
-     </div>
+    </div>
 
-     <div class="img-div col-md-6 ps-md-5 ms-md-5">
+    <div class="img-div col-md-6 ps-md-5 ms-md-5">
         <div class="position-absolute border mt-5" style="border-radius: 18% 10px 20px 20px; height: 280px; width: 390px; margin-left: 90px"></div>
-        <img class="img-first-row ps-md-5 position-absolute"  src="~/img/image_1.svg" style="border-radius: 22% 10px 20px 20px; height: 300px; width: 450px"/>
-     </div>
+        <img class="img-first-row ps-md-5 position-absolute" src="~/img/image_1.svg" style="border-radius: 22% 10px 20px 20px; height: 300px; width: 450px" />
+    </div>
 </div>
 
-<div class="row second mt-md-5  justify-content-between">
-    <section class="ms-5 mt-md-3">
-            <p class="fw-bold">Most Picked</p>
+<div class="container second mt-md-5 justify-content-between ">
+    <section class="ms-md-3 mt-md-3">
+        <p class="fw-bold">Most Picked</p>
     </section>
-    <div class="img-container-1 d-md-flex">
+    <div class="img-container-1 container d-md-flex">
 
-        <div class="img-first ms-md-5 me-md-5  text-light">
-            <img src="img/most_picked/Blue_Origin_Fams.svg"/>
+        <div class="img-first @*ms-md-5 me-md-5*@  text-light">
+            <img src="img/most_picked/Blue_Origin_Fams.svg" />
             <span class="blueOrigin position-absolute d-block ms-md-3">Blue Origin Fams</span>
             <span class="jarkata position-absolute d-block ms-md-3">Jakarta, Indonesia</span>
         </div>
 
-        <div class="img-second-container row ms-md-5 mb-md-5 text-light">
+        <div class="img-second-container container row @*ms-md-5 mb-md-5*@ text-light">
 
             <img src="img/most_picked/Ocean_Land.svg" class="col-md-6 mb-md-5" />
             <span class="Ocean position-absolute ps-md-4">Ocean Land</span>
             <span class="Bandung position-absolute ps-md-4">Bandung, Indonesia</span>
-            
+
 
             <img src="img/most_picked/Stark_House.svg" class="col-md-6 mb-md-5" />
             <span class="Stark position-absolute">Stark House</span>
@@ -70,100 +70,100 @@
             <span class="Medan position-absolute">Medan, Indonesia</span>
         </div>
     </div>
-    
+
 </div>
 
-<div class="row third mt-md-5 mb-md-5 w-100 ms-md-1">
-    <p class="fw-bold ps-md-4">Houses with beauty backyard</p>
+<div class="container third mt-md-5 mb-md-5">
+    <p class="fw-bold ps-md-2">Houses with beauty backyard</p>
 
-    <div class="img-container-2 row gx-md-5">
+    <div class="img-container-2 row">
         <div class="col-md-3">
             <img src="img/beauty_backyard/Tabby_Town.svg" />
-            <span id="sp">Tabby Town</span> <br/>
+            <span id="sp">Tabby Town</span> <br />
             <span id="sl">Gunung Batu, Indonesia</span>
-         </div>
+        </div>
 
         <div class="col-md-3">
             <img src="img/beauty_backyard/Anggana.svg" />
-            <span id="sp">Anggana</span> <br/>
+            <span id="sp">Anggana</span> <br />
             <span id="sl">Bogor, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/beauty_backyard/Seattle_Rain.svg" />
-            <span id="sp">Seattle Rain</span> <br/>
+            <span id="sp">Seattle Rain</span> <br />
             <span id="sl">Jakarta, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/beauty_backyard/Seattle_Rain.svg" />
-            <span id="sp">Wodden Pit</span> <br/>
+            <span id="sp">Wodden Pit</span> <br />
             <span id="sl">Wonosobo, Indonesia</span>
         </div>
     </div>
 </div>
 
-<div class="row forth bg-danger mt-md-4">
-    <p>Hotels with large living room</p>
+<div class="container forth mb-md-5 mt-md-4">
+    <p class="fw-bold ps-md-2">Hotels with large living room</p>
 
     <div class="img-container-3 row">
         <div class="col-md-3">
             <img src="img/large_living_room/Green_Park.svg" />
-            <p>Green Park</p>
-            <p>Tangerang, Indonesia</p>
+            <span id="sp"> Green Park</span><br/>
+            <span id="sl">Tangerang, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/large_living_room/Podo_Wae.svg" />
-            <p>Podo Wae</p>
-            <p>Madiun, Indonesia</p>
+            <span id="sp">Podo Wae</span><br />
+            <span id="sl">Madiun, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/large_living_room/Silver_Rain.svg" />
-            <p>Silver Rain</p>
-            <p>Bandung, Indonesia</p>
+            <span id="sp">Silver Rain</span><br />
+            <span id="sl">Bandung, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/large_living_room/Cashville.svg" />
-            <p>Cashville</p>
-            <p>Kemang, Indonesia</p>
+            <span id="sp">Cashville</span><br />
+            <span id="sl">Kemang, Indonesia</span>
         </div>
     </div>
 </div>
 
-<div class="row-5">
-    <p>Apartments with kitchen set</p>
+<div class="fifth mb-md-5 container">
+    <p class="fw-bold ps-md-2">Apartments with kitchen set</p>
 
     <div class="img-container-3 row">
         <div class="col-md-3">
             <img src="img/kitchen_set/PS_Wood.svg" />
-            <p>PS Wood</p>
-            <p>Depok, Indonesia</p>
+            <span id="sp">PS Wood</span><br />
+            <span id="sl">Depok, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/kitchen_set/One_Five.svg" />
-            <p>One Five</p>
-            <p>Jakarta, Indonesia</p>
+            <span id="sp">One Five</span><br />
+            <span id="sl">Jakarta, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/kitchen_set/Minimal.svg" />
-            <p>Minimal</p>
-            <p>Bogor, Indonesia</p>
+            <span id="sp">Minimal</span><br />
+            <span id="sl">Bogor, Indonesia</span>
         </div>
 
         <div class="col-md-3">
             <img src="img/kitchen_set/Stays_Home.svg" />
-            <p>Stays Home</p>
-            <p>Wonosobo, Indonesia</p>
+            <span id="sp">Stays Home</span><br />
+            <span id="sl">Wonosobo, Indonesia</span>
         </div>
     </div>
 </div>
 
-<div class="row-6">
+<div class="container d-flex mt-md-4  mb-md-5 bg-danger">
 
     <div class="img-container-4">
         <img src="img/image_2.svg" />
@@ -172,12 +172,12 @@
     <section>
         <p>Happy Family</p>
         <p>
-            <span><img src="~/img/Star.svg"/></span>
             <span><img src="~/img/Star.svg" /></span>
             <span><img src="~/img/Star.svg" /></span>
             <span><img src="~/img/Star.svg" /></span>
             <span><img src="~/img/Star.svg" /></span>
-         </p>
+            <span><img src="~/img/Star.svg" /></span>
+        </p>
         <p>
             What a great trip with my family and
             I should try again next time soon ...
