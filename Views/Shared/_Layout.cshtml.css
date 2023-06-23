@@ -1,6 +1,20 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+
+
+body {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgb(234,234, 235);
+}
+
+
 header ul{
     margin-left: 45vw;
 }
@@ -48,20 +62,41 @@ button.accept-policy {
   line-height: inherit;
 }
 
-.footer {
+
+
+h1, h2, h3, h4, h5 {
+    color: #152C5B;
+}
+
+section {
+    color: #152C5B;
+}
+
+span {
+    color: #3252DF;
+}
+
+
+
+/*.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /*height: 37vh;*/
+  height: 37vh;
   white-space: nowrap;
   line-height: 60px;
 }
 
 
  
-/*.footer .container{
-    padding-top: 47px;
+.footer .container{*/
+   /* padding-top: 47px;
     display: flex;
     justify-content: space-between;
-    line-height: 0.5rem;
-}*/
+    line-height: 0.5rem;*/
+/*}
+
+.foot span{
+    display: block;
+    line-height: 1.5rem;*/
+/*}*/

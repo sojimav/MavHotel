@@ -17,7 +17,6 @@ namespace MavHotel.Controllers
         {
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();
